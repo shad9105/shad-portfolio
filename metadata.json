@@ -1,0 +1,6 @@
+{
+  "name": "SHAD. DVM - Veterinary Portfolio",
+  "description": "Emerald Medical Dark Bento portfolio and BAU academic utilities for Shad Bin Ibne Kamal, D.V.M. Candidate at Bangladesh Agricultural University.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
