@@ -55,7 +55,7 @@ export const CvModal: React.FC<CvModalProps> = ({ onClose }) => {
                 {PROFILE_DATA.name}
               </h1>
               <p className="text-sm font-bold text-emerald-800 mt-0.5">
-                Doctor of Veterinary Medicine (D.V.M.) Candidate
+                Doctor of Veterinary Medicine (D.V.M.)
               </p>
               <p className="text-xs text-slate-700">
                 Bangladesh Agricultural University (BAU), Mymensingh - 2202, Bangladesh
@@ -132,8 +132,8 @@ export const CvModal: React.FC<CvModalProps> = ({ onClose }) => {
 
             <div className="space-y-2">
               <div>
-                <strong className="text-slate-900">BAU GPA & Mark Calculator:</strong>
-                <span className="text-slate-700 ml-1">Custom grade forecasting tool tailored for BAU credit system and target CGPA calculations.</span>
+                <strong className="text-slate-900">BAU ADMISSION GPA Mark Calculator:</strong>
+                <span className="text-slate-700 ml-1">BAU ADMISSION GPA Mark Calculator for the candidate.</span>
               </div>
               <div>
                 <strong className="text-slate-900">BAU Practical Notebook Label Generator:</strong>
