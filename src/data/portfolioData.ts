@@ -3,12 +3,12 @@ import { ProfileData, AcademicQualification, WorkExperience, LanguageSkill, Soft
 export const PROFILE_DATA: ProfileData = {
   name: 'Shad Bin Ibne Kamal',
   title: 'Doctor of Veterinary Medicine (D.V.M.) Candidate',
-  headerBrand: 'SHAD. DVM',
+  headerBrand: 'SHAD',
   institution: 'Bangladesh Agricultural University (BAU), Mymensingh',
   residenceHall: 'Shaheed Shamsul Haque Hall',
   location: 'Mymensingh, Bangladesh',
   expectedGraduation: 'August 2030',
-  currentGpa: '3.484',
+  currentGpa: '3.??',
   gpaScale: '4.00',
   statusPill: '🩺 D.V.M. Student | Focused on Animal Health & Academic Excellence',
   academicEmail: 'shad.2501009@bau.edu.bd',
@@ -59,7 +59,7 @@ export const ACADEMIC_QUALIFICATIONS: AcademicQualification[] = [
     institution: 'Bangladesh Agricultural University (BAU)',
     degree: 'Doctor of Veterinary Medicine (D.V.M.)',
     period: 'Aug 2025 – Aug 2030 (Expected)',
-    gpa: '3.484 / 4.00',
+    gpa: '3.?? / 4.00',
     achievement: 'Faculty of Veterinary Science | Resident of Shaheed Shamsul Haque Hall',
     icon: 'GraduationCap',
     isCurrent: true
@@ -94,7 +94,7 @@ export const WORK_EXPERIENCE: WorkExperience[] = [
     location: 'Mymensingh Branch',
     period: 'May 2025 – Present',
     description: 'Evaluating high-stakes HSC board standard and university admission model test answer scripts in Biology and Natural Sciences. Providing meticulous scoring feedback, identifying student error patterns, and ensuring rigorous evaluation standards.',
-    tags: ['Biology Evaluation', 'Academic Assessment', 'Model Test Grading', 'Error Diagnostics']
+    tags: ['Biology', 'Math', 'Physics', 'ICT', 'Academic Assessment', 'Model Test' ]
   },
   {
     id: 'exp-qa-teacher',
@@ -140,7 +140,7 @@ export const SOFTWARE_TOOLS: SoftwareTool[] = [
 export const PROJECTS_UTILITIES: ProjectUtility[] = [
   {
     id: 'proj-gpa-calc',
-    title: 'BAU GPA & Mark Calculator',
+    title: 'BAU GPA Mark Calculator',
     subtitle: 'Tailored for BAU Veterinary & Agricultural Credit Grading',
     description: 'Interactive grade forecasting tool customized for Bangladesh Agricultural University credit distribution. Calculate term GPAs, mark percentages, and forecast required target scores for future semesters.',
     tags: ['Interactive Tool', 'BAU Grading System', 'GPA Forecasting', 'Credit Calculations'],
