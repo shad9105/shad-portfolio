@@ -165,7 +165,7 @@ function AppContent() {
             {/* Modal Body */}
             <div className="p-4 sm:p-6 overflow-y-auto space-y-6">
               {activeUtilityModal === 'gpa-calc' ? (
-                <BauGpaCalculator />
+                <BauAdmissionGpaMarkCalculator />
               ) : (
                 <BauNotebookLabelGenerator />
               )}
