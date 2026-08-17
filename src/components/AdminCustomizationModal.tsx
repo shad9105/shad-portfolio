@@ -109,14 +109,14 @@ export const AdminCustomizationModal: React.FC<AdminModalProps> = ({ isOpen, onC
                   setPinInput(e.target.value);
                   setPinError(false);
                 }}
-                placeholder="Passcode (Default: 1209)"
+                placeholder="Passcode"
                 className="w-full bg-[#0f172a] border border-slate-800 rounded-xl px-4 py-2.5 text-center text-sm font-mono text-white focus:outline-none focus:border-emerald-400"
                 autoFocus
               />
 
               {pinError && (
                 <p className="text-xs text-red-400 font-semibold">
-                  Incorrect passcode. Try passcode: 1209
+                  Incorrect passcode. Try passcode: 3621
                 </p>
               )}
 
@@ -277,7 +277,7 @@ export const AdminCustomizationModal: React.FC<AdminModalProps> = ({ isOpen, onC
                 <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-2">
                   <div>
                     <label className="block text-emerald-300 font-semibold mb-1">
-                      BAU GPA Calculator GitHub Link
+                      BAU ADMISSION GPA MARK Calculator GitHub Link
                     </label>
                     <input
                       type="url"
